@@ -1,7 +1,7 @@
 public class Test {
     public static void main(String[] args) {
-        Pig myPig = new Pig(); // Create a Pig object
-        myPig.animalSound();
-        myPig.sleep();
+        Dog dog = new Dog();  // Create a Pig object
+        dog.animalSound();
+        dog.sleep();
     }
 }
