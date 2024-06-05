@@ -1,7 +1,8 @@
 public class Test {
     public static void main(String[] args) {
-        Dog dog = new Dog();  // Create a Pig object
-        dog.animalSound();
-        dog.sleep();
+        Address address1 = new Address("New York", "NY", "USA");
+        Employee emp1 = new Employee(101, "John Doe", address1);
+
+        emp1.displayEmployee();
     }
 }
